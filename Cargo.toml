@@ -1,0 +1,11 @@
+[package]
+name = "bulk-mctools-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.5"
+tokio = { version = "1", features = ["full"] }
+steven_protocol = { path = "stevenarella/protocol" }
